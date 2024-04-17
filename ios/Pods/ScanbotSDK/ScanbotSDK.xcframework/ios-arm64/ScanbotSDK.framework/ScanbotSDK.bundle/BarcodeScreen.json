@@ -1,0 +1,110 @@
+{
+    "acceptedDocumentFormats": [],
+    "autoCancelTimeout": 0,
+    "barcodeFormats": [],
+    "barcodeImageGenerationType": "NONE",
+    "cameraModule": "BACK",
+    "cameraOverlayColor": "#00000080",
+    "cameraPreviewMode": "FILL_IN",
+    "cameraZoomFactor": 0.0,
+    "cameraZoomRange": {
+        "maxZoom": 3.0,
+        "minZoom": 1.0
+    },
+    "cancelButtonHidden": false,
+    "cancelButtonTitle": "Cancel",
+    "codeDensity": "LOW",
+    "confirmationDialogConfiguration": {
+        "confirmButtonTitle": "Confirm",
+        "confirmationDialogConfirmButtonStyle": {
+            "backgroundColor": "#00000000",
+            "font": {
+                "fontName": "SYSTEM",
+                "fontSize": 17
+            },
+            "highlightedBackgroundColor": "#BFBFBF",
+            "highlightedTextColor": "#000000",
+            "textColor": "#000000"
+        },
+        "confirmationDialogRetryButtonStyle": {
+            "backgroundColor": "#00000000",
+            "font": {
+                "fontName": "SYSTEM_BOLD",
+                "fontSize": 17
+            },
+            "highlightedBackgroundColor": "#BFBFBF",
+            "highlightedTextColor": "#000000",
+            "textColor": "#000000"
+        },
+        "confirmationDialogStyle": {
+            "cornerRadius": 13,
+            "dialogBackgroundColor": "#F2F2F2F2",
+            "dialogBackgroundEffect": "SYSTEM_MATERIAL",
+            "messageColor": "#000000",
+            "messageFont": {
+                "fontName": "SYSTEM",
+                "fontSize": 13
+            },
+            "screenBackgroundColor": "#33000000",
+            "separatorColor": "#CCCCCCCC",
+            "separatorWidth": 0.5,
+            "titleColor": "#000000",
+            "titleFont": {
+                "fontName": "SYSTEM",
+                "fontSize": 17
+            }
+        },
+        "dialogTextFormat": "TYPE_AND_CODE",
+        "resultWithConfirmationEnabled": false,
+        "retryButtonTitle": "Retry"
+    },
+    "delayAfterScan": 0,
+    "doubleTapToZoomEnabled": true,
+    "enableCameraButtonTitle": "Enable camera",
+    "enableCameraExplanationText": "Please enable the camera permission to start scanning.",
+    "engineMode": "NEXT_GEN",
+    "finderAspectRatio": {
+        "height": 1,
+        "width": 1
+    },
+    "finderLineColor": "#FFFFFF",
+    "finderLineWidth": 2,
+    "finderTextHint": "Please align the barcode or QR code in the frame to scan it.",
+    "finderTextHintColor": "#FFFFFF",
+    "flashButtonHidden": false,
+    "flashButtonInactiveColor": "#FFFFFF",
+    "flashButtonTitle": "",
+    "flashEnabled": false,
+    "focusLockEnabled": false,
+    "focusLockPosition": 0.0,
+    "gs1DecodingEnabled": true,
+    "initialScanDelay": 0,
+    "lowPowerMode": false,
+    "maximumTextLength": 0,
+    "minFocusDistanceLock": false,
+    "minimum1DBarcodesQuietZone": 10,
+    "minimumTextLength": 0,
+    "msiPlesseyChecksumAlgorithm": "Mod10",
+    "orientationLockMode": "NONE",
+    "overlayConfiguration": {
+        "automaticSelectionEnabled": false,
+        "highlightedPolygonColor": "#C8193CCC",
+        "highlightedTextColor": "#FFFFFF",
+        "highlightedTextContainerColor": "#C8193CCC",
+        "overlayEnabled": false,
+        "polygonColor": "#00CFA6CC",
+        "textColor": "#000000",
+        "textContainerColor": "#00CFA6CC",
+        "textFormat": "CODE"
+    },
+    "pinchToZoomEnabled": true,
+    "replaceCancelButtonWithIcon": false,
+    "screen": "BarcodeScanner",
+    "shouldAnimateZooming": true,
+    "stripCheckDigits": false,
+    "successBeepEnabled": true,
+    "topBarBackgroundColor": "#000000",
+    "topBarButtonsColor": "#F7CE46",
+    "useButtonsAllCaps": true,
+    "version": "1.0"
+}
