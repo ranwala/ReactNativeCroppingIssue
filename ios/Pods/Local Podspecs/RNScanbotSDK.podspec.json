@@ -1,0 +1,108 @@
+{
+  "name": "RNScanbotSDK",
+  "version": "4.15.5",
+  "summary": "Scanbot Document and Barcode Scanner SDK React Native Plugin for Android and iOS",
+  "homepage": "https://scanbot.io",
+  "authors": "Scanbot SDK GmbH",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://download.scanbot.io/sdk/react-native/react-native-scanbot-sdk-4.15.5.tgz"
+  },
+  "default_subspecs": "NONE",
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "OCR",
+      "dependencies": {
+        "React": [
+
+        ],
+        "ScanbotSDKNativeWrapper/OCR": [
+          "2.2.0.7"
+        ],
+        "ScanbotSDK/OCR": [
+          "2.2.0"
+        ]
+      },
+      "ios": {
+        "vendored_frameworks": [
+          "ScanbotSDK.framework",
+          "ScanbotSDKNativeWrapper.framework"
+        ]
+      },
+      "source_files": [
+        "ios/RNScanbotSDK/RNScanbotSDK/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/**/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Categories/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/DefaultUI/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Internal/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Utils/*.{h,m}"
+      ]
+    },
+    {
+      "name": "ALL",
+      "dependencies": {
+        "React": [
+
+        ],
+        "ScanbotSDKNativeWrapper/ALL": [
+          "2.2.0.7"
+        ],
+        "ScanbotSDK/ALL": [
+          "2.2.0"
+        ]
+      },
+      "ios": {
+        "vendored_frameworks": [
+          "ScanbotSDK.framework",
+          "ScanbotSDKNativeWrapper.framework"
+        ]
+      },
+      "source_files": [
+        "ios/RNScanbotSDK/RNScanbotSDK/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/**/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Categories/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/DefaultUI/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Internal/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Utils/*.{h,m}"
+      ]
+    },
+    {
+      "name": "NONE",
+      "dependencies": {
+        "React": [
+
+        ],
+        "ScanbotSDKNativeWrapper": [
+          "2.2.0.7"
+        ],
+        "ScanbotSDK": [
+          "2.2.0"
+        ]
+      },
+      "ios": {
+        "vendored_frameworks": [
+          "ScanbotSDK.framework",
+          "ScanbotSDKNativeWrapper.framework"
+        ]
+      },
+      "source_files": [
+        "ios/RNScanbotSDK/RNScanbotSDK/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Components/**/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Categories/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/DefaultUI/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Internal/*.{h,m}",
+        "ios/RNScanbotSDK/RNScanbotSDK/Utils/*.{h,m}"
+      ]
+    }
+  ]
+}
