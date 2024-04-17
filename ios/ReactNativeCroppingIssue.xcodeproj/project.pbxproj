@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5570037A98408434B3F1CBC0 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 303902C4A1606E42011D6689 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */; };
-		73EBB4452B1F7220F0656C65 /* libPods-ReactNativeCroppingIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9E78D42959E24ADF526039 /* libPods-ReactNativeCroppingIssue.a */; };
+		771DADE1A4B45666472FE451 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 633918C75E67754C280CE109 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E6BB0922AD388B4BB4F391D4 /* libPods-ReactNativeCroppingIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4FAC362C8D90F856138BD6 /* libPods-ReactNativeCroppingIssue.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* ReactNativeCroppingIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeCroppingIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativeCroppingIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCroppingIssueTests.m; sourceTree = "<group>"; };
-		0C9E78D42959E24ADF526039 /* libPods-ReactNativeCroppingIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCroppingIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ReactNativeCroppingIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeCroppingIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeCroppingIssue/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeCroppingIssue/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeCroppingIssue/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeCroppingIssue/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeCroppingIssue/main.m; sourceTree = "<group>"; };
-		20B1BB0A4C08E1CA04CBEC10 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue.debug.xcconfig"; sourceTree = "<group>"; };
-		2AA132D8A60920AFF6F84C45 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig"; sourceTree = "<group>"; };
-		303902C4A1606E42011D6689 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF896C9484FF274CDC5CA8D /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig"; sourceTree = "<group>"; };
+		54F161A17541F41989179BF5 /* Pods-ReactNativeCroppingIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue.release.xcconfig"; sourceTree = "<group>"; };
+		633918C75E67754C280CE109 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeCroppingIssue/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A55E6CD23DF58CC7929EA641 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B51FDB611843EA700F10D7 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A220FB2909368AFBD820D6 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4FAC362C8D90F856138BD6 /* libPods-ReactNativeCroppingIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCroppingIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EDE856C6C1A87689395FF488 /* Pods-ReactNativeCroppingIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCroppingIssue.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5570037A98408434B3F1CBC0 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a in Frameworks */,
+				771DADE1A4B45666472FE451 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EBB4452B1F7220F0656C65 /* libPods-ReactNativeCroppingIssue.a in Frameworks */,
+				E6BB0922AD388B4BB4F391D4 /* libPods-ReactNativeCroppingIssue.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				0C9E78D42959E24ADF526039 /* libPods-ReactNativeCroppingIssue.a */,
-				303902C4A1606E42011D6689 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */,
+				DD4FAC362C8D90F856138BD6 /* libPods-ReactNativeCroppingIssue.a */,
+				633918C75E67754C280CE109 /* libPods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20B1BB0A4C08E1CA04CBEC10 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */,
-				EDE856C6C1A87689395FF488 /* Pods-ReactNativeCroppingIssue.release.xcconfig */,
-				A55E6CD23DF58CC7929EA641 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */,
-				2AA132D8A60920AFF6F84C45 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */,
+				D8A220FB2909368AFBD820D6 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */,
+				54F161A17541F41989179BF5 /* Pods-ReactNativeCroppingIssue.release.xcconfig */,
+				B7B51FDB611843EA700F10D7 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */,
+				2DF896C9484FF274CDC5CA8D /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeCroppingIssueTests" */;
 			buildPhases = (
-				31CA63CB509E7E8CCCAB2E1F /* [CP] Check Pods Manifest.lock */,
+				937FA530408DB95F53C674DF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3ED7C3871D22849F3FCA7AFF /* [CP] Embed Pods Frameworks */,
-				7839190A1A1E461FDA3B4202 /* [CP] Copy Pods Resources */,
+				76CE1392B44E64685519AFBE /* [CP] Embed Pods Frameworks */,
+				B0FAB0CFD652E4591CEC489F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeCroppingIssue" */;
 			buildPhases = (
-				1989D2AAC29E871DFC9F5E06 /* [CP] Check Pods Manifest.lock */,
+				A9429122940BC578D720F450 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3656A8BA2557994FEA338548 /* [CP] Embed Pods Frameworks */,
-				04C7ACD43EB78842D5065257 /* [CP] Copy Pods Resources */,
+				CF4B19AF10ABD30BAB61EFF6 /* [CP] Embed Pods Frameworks */,
+				579EE2DEF864C3A17723D6F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		04C7ACD43EB78842D5065257 /* [CP] Copy Pods Resources */ = {
+		579EE2DEF864C3A17723D6F5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,29 +282,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1989D2AAC29E871DFC9F5E06 /* [CP] Check Pods Manifest.lock */ = {
+		76CE1392B44E64685519AFBE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCroppingIssue-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		31CA63CB509E7E8CCCAB2E1F /* [CP] Check Pods Manifest.lock */ = {
+		937FA530408DB95F53C674DF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,41 +321,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3656A8BA2557994FEA338548 /* [CP] Embed Pods Frameworks */ = {
+		A9429122940BC578D720F450 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCroppingIssue-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3ED7C3871D22849F3FCA7AFF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7839190A1A1E461FDA3B4202 /* [CP] Copy Pods Resources */ = {
+		B0FAB0CFD652E4591CEC489F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests/Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4B19AF10ABD30BAB61EFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCroppingIssue/Pods-ReactNativeCroppingIssue-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A55E6CD23DF58CC7929EA641 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */;
+			baseConfigurationReference = B7B51FDB611843EA700F10D7 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AA132D8A60920AFF6F84C45 /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */;
+			baseConfigurationReference = 2DF896C9484FF274CDC5CA8D /* Pods-ReactNativeCroppingIssue-ReactNativeCroppingIssueTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20B1BB0A4C08E1CA04CBEC10 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */;
+			baseConfigurationReference = D8A220FB2909368AFBD820D6 /* Pods-ReactNativeCroppingIssue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -489,7 +489,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE856C6C1A87689395FF488 /* Pods-ReactNativeCroppingIssue.release.xcconfig */;
+			baseConfigurationReference = 54F161A17541F41989179BF5 /* Pods-ReactNativeCroppingIssue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
